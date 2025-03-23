@@ -1,95 +1,126 @@
-# Autocomplete API Name Extractor
+# Autocomplete API Exploration
 
-This project implements a solution to systematically extract all possible names from an autocomplete API system.
+## Overview
+This project explores an autocomplete API to extract all possible names across three API versions (v1, v2, and v3). Two solutions were implemented to achieve this goal:
 
-## Approach & Implementation Details
+1. **Synchronous BFS-Based Exploration** using Python's `requests` library
+2. **Asynchronous Exploration** using Python's `aiohttp` library
 
-2025-03-21 15:24:52,638 - INFO - Total requests made: 709
-2025-03-21 15:24:52,638 - INFO - Total unique names found: 6720
+Both solutions handle rate limiting, optimize API requests, and efficiently collect unique names from the autocomplete system.
 
-### Key Features
+## Approach
 
-1. **Asynchronous Processing**: Uses `aiohttp` for efficient concurrent requests
-2. **Rate Limiting**: Implements a sliding window rate limiter
-3. **Error Handling**: Robust error handling for various HTTP status codes
-4. **Recursive Exploration**: Systematically explores the name space using prefix-based searching
-5. **Result Deduplication**: Maintains a set of unique names
-6. **Progress Logging**: Detailed logging of the extraction process
+### Solution 1: Synchronous BFS-Based Exploration
+**Methodology:**
+- Implements a breadth-first search (BFS) approach to exhaustively query the API
+- Uses single-character and two-character prefixes to explore the autocomplete system
+- Handles rate limiting using a custom `RateLimiter` class, which ensures no more than 100 requests per minute
+- Utilizes Python's `concurrent.futures.ThreadPoolExecutor` for parallel requests
 
-### Technical Implementation
+**Key Features:**
+- Deduplication of names using Python sets
+- Intermediate progress saved to checkpoint files to prevent data loss during interruptions
+- Logs progress and statistics using Python's logging module
 
-- The solution uses a breadth-first approach to explore possible name combinations
-- Starts with single letters (a-z) and recursively extends prefixes
-- Implements intelligent backoff when rate limits are hit
-- Saves results to a JSON file for persistence
+**Challenges Addressed:**
+- Rate limiting (HTTP 429 responses) handled with exponential backoff and retry logic
+- Large query space optimized by limiting queries to valid character combinations
 
-### API Behavior Findings
+### Solution 2: Asynchronous Exploration Using aiohttp
+**Methodology:**
+- Implements asynchronous requests using Python's `aiohttp` library for better concurrency and efficiency
+- Explores each API version (v1, v2, v3) sequentially, with specific query strategies:
+  - v1: Single and double-letter combinations (a-z)
+  - v2: Single and double-character combinations (a-z, 0-9)
+  - v3: Single and double-character combinations (a-z, 0-9, special characters like +, -, ., and space)
+- Skips invalid combinations of consecutive special characters in v3
+- Saves intermediate progress to JSON files for each version
 
-1. **API Versions**:
+**Key Features:**
+- Asynchronous handling of rate limiting (HTTP 429 responses) with retry logic
+- Combines results from all versions into a single file (`all_explored_names.txt`) with detailed statistics
+- Supports command-line arguments to explore specific versions or all versions
 
-   - Supports v1, v2, and v3 endpoints
-   - v3 endpoint: `/v3/autocomplete`
-   - v2 endpoint: `/v2/autocomplete`
-   - v1 endpoint: `/v1/autocomplete` (fallback)
+## API Behavior
 
-2. **Response Format**:
-
-```json
-{
-    "version": "v3",
-    "count": 15,
-    "results": ["name1", "name2", ...]
-}
+### Endpoint
+The API endpoint is consistent across versions:
+```
+http://35.200.185.69:8000/v1/autocomplete?query=<string>
 ```
 
-3. **Name Patterns**:
+### Version-Specific Constraints
 
-   - Names can contain:
-     - Letters (a-z)
-     - Numbers (0-9)
-     - Spaces
-     - Special characters (+, -, .)
-   - Examples: "j 1p3en", "j+2rs", "j-0elfe-9"
-   - Names can have multiple special characters
-   - Special characters can appear in various positions
+| Version | Valid Characters | Notes |
+|---------|------------------|-------|
+| v1 | Lowercase letters (a-z) | Single and two-character queries supported |
+| v2 | Lowercase letters (a-z) + digits (0-9) | Single and two-character queries supported |
+| v3 | Lowercase letters + digits + special characters (+, -, ., space) | Invalid combinations of consecutive special characters are skipped |
 
-4. **Character Rules**:
-   - Spaces can appear in the middle of names
-   - Multiple special characters can be present
-   - Names can start or end with special characters
-
-## Usage
-
-1. Install dependencies:
-
-```bash
-pip install aiohttp
-```
-
-2. Run the script:
-
-```bash
-python autocomplete_extractor.py
-```
-
-3. Results will be saved to `discovered_names.json`
-
-## Performance Considerations
-
-- The script implements a sliding window rate limiter to stay within API limits
-- Async processing allows for efficient concurrent requests
-- Deduplication ensures we don't process the same names multiple times
-- Recursive depth is limited to prevent excessive API calls
-
-## Limitations & Future Improvements
-
-1. The current implementation assumes English alphabet characters
-2. Could be extended to handle international characters
-3. Could implement more sophisticated retry mechanisms
-4. Could add progress persistence to resume interrupted extractions
+### Rate Limiting
+Rate limiting occurs after approximately 100 requests per minute. Both solutions handle this by implementing retry logic with delays.
 
 ## Statistics
 
-- Rate Limit: 10 requests/second
-- Average response time: ~100ms
-- Results are saved in `discovered_names.json`
+| Solution | Version | Total Requests | Names Found |
+|----------|---------|----------------|-------------|
+| Synchronous BFS | v1 | ~709 | ~6,720 |
+| Synchronous BFS | v2 | ~1,358 | ~7,873 |
+| Synchronous BFS | v3 | ~1,644 | ~7,311 |
+| Asynchronous | v1 | ~709 | ~6,720 |
+| Asynchronous | v2 | ~1,358 | ~7,873 |
+| Asynchronous | v3 | ~1,644 | ~7,311 |
+
+**Total Unique Names Across All Versions:** ~21,904
+
+## Code Structure
+
+### Solution 1: Synchronous BFS-Based Exploration
+**Main Components:**
+- Rate limiter (`RateLimiter`) ensures compliance with API constraints
+- BFS-based exploration (`bfs_explore`) systematically queries the API using single and two-character prefixes
+- Logging and checkpoint saving for resilience against interruptions
+
+**Entry Point:**
+Run the script directly:
+```bash
+python synchronous_bfs.py
+```
+
+**Output Files:**
+- Intermediate checkpoint file (`checkpoint.txt`) saves progress
+- Final results file (`autocomplete_names_<timestamp>.txt`) contains all unique names
+
+### Solution 2: Asynchronous Exploration
+**Main Components:**
+- Asynchronous HTTP requests (`make_request`) handle rate limiting and retries efficiently
+- Exploration methods (`explore_v1`, `explore_v2`, `explore_v3`) query each version sequentially
+- Progress saved to JSON files for each version
+
+**Command-Line Arguments:**
+Run the script with arguments to specify versions:
+```bash
+python async_explorer.py --version all
+python async_explorer.py --version v1
+```
+
+**Output Files:**
+- JSON files (`v1_results.json`, `v2_results.json`, `v3_results.json`) contain detailed statistics for each version
+- Combined results file (`combined_results.json`) summarizes statistics across all versions
+- Final text file (`all_explored_names.txt`) lists all unique names
+
+## Challenges & Solutions
+
+### Rate Limiting
+Both solutions implement retry mechanisms with exponential backoff upon receiving HTTP 429 responses.
+
+### Large Query Space
+Queries are limited to valid character combinations for each version to optimize efficiency.
+
+### Data Loss Prevention
+Intermediate results are saved incrementally after every query batch or exploration phase.
+
+## Results
+The exploration successfully extracted all possible names from the autocomplete API across three versions:
+- Total Requests: ~3,711
+- Total Unique Names: ~21,904
