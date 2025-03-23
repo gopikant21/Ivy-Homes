@@ -1,0 +1,517 @@
+2025-03-21 17:56:09,070 - INFO - Starting autocomplete extraction
+2025-03-21 17:56:09,188 - INFO - Found 100 unique names so far. Queue size: 266
+2025-03-21 17:56:09,223 - INFO - Found 200 unique names so far. Queue size: 526
+2025-03-21 17:58:09,398 - INFO - Found 2000 unique names so far. Queue size: 5032
+2025-03-21 17:59:10,409 - INFO - Found 3800 unique names so far. Queue size: 9662
+2025-03-21 18:00:09,600 - INFO - Found 3900 unique names so far. Queue size: 9928
+2025-03-21 18:00:09,616 - INFO - Found 4000 unique names so far. Queue size: 10188
+2025-03-21 18:00:09,737 - INFO - Found 4100 unique names so far. Queue size: 10428
+2025-03-21 18:00:09,748 - INFO - Found 4200 unique names so far. Queue size: 10688
+2025-03-21 18:00:09,879 - INFO - Found 4300 unique names so far. Queue size: 10928
+2025-03-21 18:00:10,317 - INFO - Found 4600 unique names so far. Queue size: 11668
+2025-03-21 18:00:10,336 - INFO - Found 4700 unique names so far. Queue size: 11954
+2025-03-21 18:00:10,458 - WARNING - Rate limit exceeded for query 'qn'. Waiting 60s
+2025-03-21 18:00:10,466 - WARNING - Rate limit exceeded for query 'qx'. Waiting 60s
+2025-03-21 18:00:10,473 - WARNING - Rate limit exceeded for query 'qp'. Waiting 60s
+2025-03-21 18:00:10,475 - WARNING - Rate limit exceeded for query 'qu'. Waiting 60s
+2025-03-21 18:00:10,479 - WARNING - Rate limit exceeded for query 'qq'. Waiting 60s
+2025-03-21 18:00:10,479 - WARNING - Rate limit exceeded for query 'qm'. Waiting 60s
+2025-03-21 18:00:10,481 - WARNING - Rate limit exceeded for query 'qo'. Waiting 60s
+2025-03-21 18:00:10,485 - WARNING - Rate limit exceeded for query 'qh'. Waiting 60s
+2025-03-21 18:00:10,485 - WARNING - Rate limit exceeded for query 'qr'. Waiting 60s
+2025-03-21 18:00:10,486 - WARNING - Rate limit exceeded for query 'qj'. Waiting 60s
+2025-03-21 18:00:10,490 - WARNING - Rate limit exceeded for query 'qi'. Waiting 60s
+2025-03-21 18:00:10,491 - WARNING - Rate limit exceeded for query 'qg'. Waiting 60s
+2025-03-21 18:00:10,493 - WARNING - Rate limit exceeded for query 'qk'. Waiting 60s
+2025-03-21 18:00:10,494 - WARNING - Rate limit exceeded for query 'ql'. Waiting 60s
+2025-03-21 18:00:10,494 - WARNING - Rate limit exceeded for query 'qs'. Waiting 60s
+2025-03-21 18:00:10,496 - WARNING - Rate limit exceeded for query 'qz'. Waiting 60s
+2025-03-21 18:00:10,496 - WARNING - Rate limit exceeded for query 'qw'. Waiting 60s
+2025-03-21 18:00:10,497 - WARNING - Rate limit exceeded for query 'qy'. Waiting 60s
+2025-03-21 18:00:10,500 - WARNING - Rate limit exceeded for query 'qt'. Waiting 60s
+2025-03-21 18:00:10,504 - WARNING - Rate limit exceeded for query 'qv'. Waiting 60s
+2025-03-21 18:01:10,567 - INFO - Found 4800 unique names so far. Queue size: 12194
+2025-03-21 18:04:12,669 - WARNING - Rate limit exceeded for query 'dki'. Waiting 60s
+2025-03-21 18:04:12,676 - WARNING - Rate limit exceeded for query 'div'. Waiting 60s
+2025-03-21 18:04:12,685 - WARNING - Rate limit exceeded for query 'dkd'. Waiting 60s
+2025-03-21 18:04:12,685 - WARNING - Rate limit exceeded for query 'dix'. Waiting 60s
+2025-03-21 18:04:12,686 - WARNING - Rate limit exceeded for query 'dkj'. Waiting 60s
+2025-03-21 18:04:12,688 - WARNING - Rate limit exceeded for query 'dit'. Waiting 60s
+2025-03-21 18:04:12,691 - WARNING - Rate limit exceeded for query 'dkc'. Waiting 60s
+2025-03-21 18:04:12,698 - WARNING - Rate limit exceeded for query 'diw'. Waiting 60s
+2025-03-21 18:04:12,699 - WARNING - Rate limit exceeded for query 'diq'. Waiting 60s
+2025-03-21 18:04:12,699 - WARNING - Rate limit exceeded for query 'diy'. Waiting 60s
+2025-03-21 18:04:12,715 - WARNING - Rate limit exceeded for query 'dkh'. Waiting 60s
+2025-03-21 18:04:12,715 - WARNING - Rate limit exceeded for query 'dis'. Waiting 60s
+2025-03-21 18:04:12,716 - WARNING - Rate limit exceeded for query 'dkg'. Waiting 60s
+2025-03-21 18:04:12,716 - WARNING - Rate limit exceeded for query 'dkf'. Waiting 60s
+2025-03-21 18:04:12,717 - WARNING - Rate limit exceeded for query 'dir'. Waiting 60s
+2025-03-21 18:04:12,717 - WARNING - Rate limit exceeded for query 'diz'. Waiting 60s
+2025-03-21 18:04:12,729 - WARNING - Rate limit exceeded for query 'dke'. Waiting 60s
+2025-03-21 18:04:12,730 - WARNING - Rate limit exceeded for query 'dkb'. Waiting 60s
+2025-03-21 18:04:12,730 - WARNING - Rate limit exceeded for query 'diu'. Waiting 60s
+2025-03-21 18:04:12,731 - WARNING - Rate limit exceeded for query 'dka'. Waiting 60s
+2025-03-21 18:06:14,534 - WARNING - Rate limit exceeded for query 'dxq'. Waiting 60s
+2025-03-21 18:06:14,538 - WARNING - Rate limit exceeded for query 'dxj'. Waiting 60s
+2025-03-21 18:06:14,539 - WARNING - Rate limit exceeded for query 'dxt'. Waiting 60s
+2025-03-21 18:06:14,544 - WARNING - Rate limit exceeded for query 'dxw'. Waiting 60s
+2025-03-21 18:06:14,545 - WARNING - Rate limit exceeded for query 'dxi'. Waiting 60s
+2025-03-21 18:06:14,549 - WARNING - Rate limit exceeded for query 'dxr'. Waiting 60s
+2025-03-21 18:06:14,550 - WARNING - Rate limit exceeded for query 'dxz'. Waiting 60s
+2025-03-21 18:06:14,551 - WARNING - Rate limit exceeded for query 'dxn'. Waiting 60s
+2025-03-21 18:06:14,552 - WARNING - Rate limit exceeded for query 'dxl'. Waiting 60s
+2025-03-21 18:06:14,552 - WARNING - Rate limit exceeded for query 'dxp'. Waiting 60s
+2025-03-21 18:06:14,556 - WARNING - Rate limit exceeded for query 'dxv'. Waiting 60s
+2025-03-21 18:06:14,560 - WARNING - Rate limit exceeded for query 'dxy'. Waiting 60s
+2025-03-21 18:06:14,561 - WARNING - Rate limit exceeded for query 'dxm'. Waiting 60s
+2025-03-21 18:06:14,561 - WARNING - Rate limit exceeded for query 'dta'. Waiting 60s
+2025-03-21 18:06:14,561 - WARNING - Rate limit exceeded for query 'dxu'. Waiting 60s
+2025-03-21 18:06:14,562 - WARNING - Rate limit exceeded for query 'dxs'. Waiting 60s
+2025-03-21 18:06:14,564 - WARNING - Rate limit exceeded for query 'dtb'. Waiting 60s
+2025-03-21 18:06:14,568 - WARNING - Rate limit exceeded for query 'dxo'. Waiting 60s
+2025-03-21 18:06:14,568 - WARNING - Rate limit exceeded for query 'dxk'. Waiting 60s
+2025-03-21 18:06:14,922 - WARNING - Rate limit exceeded for query 'dxx'. Waiting 60s
+2025-03-21 18:09:15,464 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,468 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,470 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,470 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,470 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,471 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,474 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:09:15,474 - INFO - Found 6900 unique names so far. Queue size: 16372
+2025-03-21 18:12:16,091 - INFO - Found 7000 unique names so far. Queue size: 16032
+2025-03-21 18:14:16,685 - WARNING - Rate limit exceeded for query 'bzr'. Waiting 60s
+2025-03-21 18:14:16,686 - WARNING - Rate limit exceeded for query 'bzg'. Waiting 60s
+2025-03-21 18:14:16,687 - WARNING - Rate limit exceeded for query 'bzn'. Waiting 60s
+2025-03-21 18:14:16,693 - WARNING - Rate limit exceeded for query 'bzj'. Waiting 60s
+2025-03-21 18:14:16,693 - WARNING - Rate limit exceeded for query 'bzh'. Waiting 60s
+2025-03-21 18:14:16,693 - WARNING - Rate limit exceeded for query 'bzt'. Waiting 60s
+2025-03-21 18:14:16,698 - WARNING - Rate limit exceeded for query 'bzm'. Waiting 60s
+2025-03-21 18:14:16,705 - WARNING - Rate limit exceeded for query 'bzl'. Waiting 60s
+2025-03-21 18:14:16,706 - WARNING - Rate limit exceeded for query 'bzp'. Waiting 60s
+2025-03-21 18:14:16,706 - WARNING - Rate limit exceeded for query 'bze'. Waiting 60s
+2025-03-21 18:14:16,709 - WARNING - Rate limit exceeded for query 'bzk'. Waiting 60s
+2025-03-21 18:14:16,710 - WARNING - Rate limit exceeded for query 'bzd'. Waiting 60s
+2025-03-21 18:14:16,711 - WARNING - Rate limit exceeded for query 'bzu'. Waiting 60s
+2025-03-21 18:14:16,711 - WARNING - Rate limit exceeded for query 'bzv'. Waiting 60s
+2025-03-21 18:14:16,711 - WARNING - Rate limit exceeded for query 'bzi'. Waiting 60s
+2025-03-21 18:14:16,712 - WARNING - Rate limit exceeded for query 'bzo'. Waiting 60s
+2025-03-21 18:14:16,712 - WARNING - Rate limit exceeded for query 'bzq'. Waiting 60s
+2025-03-21 18:14:16,760 - WARNING - Rate limit exceeded for query 'bzc'. Waiting 60s
+2025-03-21 18:14:16,769 - WARNING - Rate limit exceeded for query 'bzf'. Waiting 60s
+2025-03-21 18:14:17,056 - WARNING - Rate limit exceeded for query 'bzs'. Waiting 60s
+2025-03-21 18:16:17,574 - INFO - Found 7100 unique names so far. Queue size: 15672
+2025-03-21 18:16:17,576 - INFO - Found 7100 unique names so far. Queue size: 15672
+2025-03-21 18:19:18,199 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,199 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,199 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,204 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,213 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,213 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:19:18,213 - INFO - Found 7200 unique names so far. Queue size: 15332
+2025-03-21 18:20:17,491 - INFO - Found 7200 unique names so far. Queue size: 15312
+2025-03-21 18:20:17,493 - INFO - Found 7200 unique names so far. Queue size: 15312
+2025-03-21 18:20:17,493 - INFO - Found 7200 unique names so far. Queue size: 15312
+2025-03-21 18:20:17,493 - INFO - Found 7200 unique names so far. Queue size: 15312
+2025-03-21 18:21:19,082 - WARNING - Rate limit exceeded for query 'gmj'. Waiting 60s
+2025-03-21 18:21:19,088 - WARNING - Rate limit exceeded for query 'gmg'. Waiting 60s
+2025-03-21 18:21:19,090 - WARNING - Rate limit exceeded for query 'gmh'. Waiting 60s
+2025-03-21 18:21:19,091 - WARNING - Rate limit exceeded for query 'gmf'. Waiting 60s
+2025-03-21 18:21:19,091 - WARNING - Rate limit exceeded for query 'gmp'. Waiting 60s
+2025-03-21 18:21:19,091 - WARNING - Rate limit exceeded for query 'gmb'. Waiting 60s
+2025-03-21 18:21:19,093 - WARNING - Rate limit exceeded for query 'gmi'. Waiting 60s
+2025-03-21 18:21:19,093 - WARNING - Rate limit exceeded for query 'gmo'. Waiting 60s
+2025-03-21 18:21:19,097 - WARNING - Rate limit exceeded for query 'gmc'. Waiting 60s
+2025-03-21 18:21:19,097 - WARNING - Rate limit exceeded for query 'gmq'. Waiting 60s
+2025-03-21 18:21:19,102 - WARNING - Rate limit exceeded for query 'gmk'. Waiting 60s
+2025-03-21 18:21:19,107 - WARNING - Rate limit exceeded for query 'gmr'. Waiting 60s
+2025-03-21 18:21:19,111 - WARNING - Rate limit exceeded for query 'gmt'. Waiting 60s
+2025-03-21 18:21:19,112 - WARNING - Rate limit exceeded for query 'gms'. Waiting 60s
+2025-03-21 18:21:19,116 - WARNING - Rate limit exceeded for query 'gmn'. Waiting 60s
+2025-03-21 18:21:19,117 - WARNING - Rate limit exceeded for query 'gmm'. Waiting 60s
+2025-03-21 18:21:19,117 - WARNING - Rate limit exceeded for query 'gml'. Waiting 60s
+2025-03-21 18:21:19,118 - WARNING - Rate limit exceeded for query 'gmd'. Waiting 60s
+2025-03-21 18:21:19,121 - WARNING - Rate limit exceeded for query 'gma'. Waiting 60s
+2025-03-21 18:21:19,121 - WARNING - Rate limit exceeded for query 'gme'. Waiting 60s
+2025-03-21 18:26:20,077 - INFO - Found 7600 unique names so far. Queue size: 15192
+2025-03-21 18:26:20,077 - INFO - Found 7600 unique names so far. Queue size: 15192
+2025-03-21 18:26:20,077 - INFO - Found 7600 unique names so far. Queue size: 15192
+2025-03-21 18:30:21,300 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,301 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,301 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,308 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,309 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,309 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:30:21,309 - INFO - Found 7700 unique names so far. Queue size: 14812
+2025-03-21 18:38:23,939 - WARNING - Rate limit exceeded for query 'eln'. Waiting 60s
+2025-03-21 18:38:23,941 - WARNING - Rate limit exceeded for query 'elx'. Waiting 60s
+2025-03-21 18:38:23,950 - WARNING - Rate limit exceeded for query 'elk'. Waiting 60s
+2025-03-21 18:38:23,951 - WARNING - Rate limit exceeded for query 'els'. Waiting 60s
+2025-03-21 18:38:23,956 - WARNING - Rate limit exceeded for query 'elw'. Waiting 60s
+2025-03-21 18:38:23,959 - WARNING - Rate limit exceeded for query 'elm'. Waiting 60s
+2025-03-21 18:38:23,960 - WARNING - Rate limit exceeded for query 'elz'. Waiting 60s
+2025-03-21 18:38:23,960 - WARNING - Rate limit exceeded for query 'elp'. Waiting 60s
+2025-03-21 18:38:23,961 - WARNING - Rate limit exceeded for query 'elv'. Waiting 60s
+2025-03-21 18:38:23,961 - WARNING - Rate limit exceeded for query 'elu'. Waiting 60s
+2025-03-21 18:38:23,962 - WARNING - Rate limit exceeded for query 'ell'. Waiting 60s
+2025-03-21 18:38:23,964 - WARNING - Rate limit exceeded for query 'eqc'. Waiting 60s
+2025-03-21 18:38:23,965 - WARNING - Rate limit exceeded for query 'eqb'. Waiting 60s
+2025-03-21 18:38:23,965 - WARNING - Rate limit exceeded for query 'elt'. Waiting 60s
+2025-03-21 18:38:23,965 - WARNING - Rate limit exceeded for query 'ely'. Waiting 60s
+2025-03-21 18:38:23,968 - WARNING - Rate limit exceeded for query 'elo'. Waiting 60s
+2025-03-21 18:38:23,970 - WARNING - Rate limit exceeded for query 'eqd'. Waiting 60s
+2025-03-21 18:38:24,022 - WARNING - Rate limit exceeded for query 'elq'. Waiting 60s
+2025-03-21 18:38:24,023 - WARNING - Rate limit exceeded for query 'elr'. Waiting 60s
+2025-03-21 18:38:24,317 - WARNING - Rate limit exceeded for query 'eqa'. Waiting 60s
+2025-03-21 18:40:24,178 - INFO - Found 8000 unique names so far. Queue size: 13910
+2025-03-21 18:41:25,599 - WARNING - Rate limit exceeded for query 'eya'. Waiting 60s
+2025-03-21 18:41:25,599 - WARNING - Rate limit exceeded for query 'haz'. Waiting 60s
+2025-03-21 18:41:25,599 - WARNING - Rate limit exceeded for query 'eym'. Waiting 60s
+2025-03-21 18:41:25,606 - WARNING - Rate limit exceeded for query 'eyq'. Waiting 60s
+2025-03-21 18:41:25,606 - WARNING - Rate limit exceeded for query 'eye'. Waiting 60s
+2025-03-21 18:41:25,606 - WARNING - Rate limit exceeded for query 'hay'. Waiting 60s
+2025-03-21 18:41:25,606 - WARNING - Rate limit exceeded for query 'eyf'. Waiting 60s
+2025-03-21 18:41:25,613 - WARNING - Rate limit exceeded for query 'eyh'. Waiting 60s
+2025-03-21 18:41:25,614 - WARNING - Rate limit exceeded for query 'eyj'. Waiting 60s
+2025-03-21 18:41:25,614 - WARNING - Rate limit exceeded for query 'eyp'. Waiting 60s
+2025-03-21 18:41:25,615 - WARNING - Rate limit exceeded for query 'eyi'. Waiting 60s
+2025-03-21 18:41:25,616 - WARNING - Rate limit exceeded for query 'eyc'. Waiting 60s
+2025-03-21 18:41:25,616 - WARNING - Rate limit exceeded for query 'eyr'. Waiting 60s
+2025-03-21 18:41:25,621 - WARNING - Rate limit exceeded for query 'eyd'. Waiting 60s
+2025-03-21 18:41:25,621 - WARNING - Rate limit exceeded for query 'eyo'. Waiting 60s
+2025-03-21 18:41:25,621 - WARNING - Rate limit exceeded for query 'eyk'. Waiting 60s
+2025-03-21 18:41:25,621 - WARNING - Rate limit exceeded for query 'eyb'. Waiting 60s
+2025-03-21 18:41:25,621 - WARNING - Rate limit exceeded for query 'eyn'. Waiting 60s
+2025-03-21 18:41:25,622 - WARNING - Rate limit exceeded for query 'eyl'. Waiting 60s
+2025-03-21 18:41:25,622 - WARNING - Rate limit exceeded for query 'eyg'. Waiting 60s
+2025-03-21 18:44:26,084 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:44:26,093 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:44:26,094 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:44:26,094 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:44:26,094 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:44:26,106 - INFO - Found 8100 unique names so far. Queue size: 13490
+2025-03-21 18:45:28,312 - WARNING - Rate limit exceeded for query 'hmp'. Waiting 60s
+2025-03-21 18:45:28,313 - WARNING - Rate limit exceeded for query 'hmw'. Waiting 60s
+2025-03-21 18:45:28,313 - WARNING - Rate limit exceeded for query 'hmm'. Waiting 60s
+2025-03-21 18:45:28,314 - WARNING - Rate limit exceeded for query 'hmo'. Waiting 60s
+2025-03-21 18:45:28,315 - WARNING - Rate limit exceeded for query 'hmn'. Waiting 60s
+2025-03-21 18:45:28,315 - WARNING - Rate limit exceeded for query 'hmy'. Waiting 60s
+2025-03-21 18:45:28,315 - WARNING - Rate limit exceeded for query 'hmk'. Waiting 60s
+2025-03-21 18:45:28,316 - WARNING - Rate limit exceeded for query 'hmi'. Waiting 60s
+2025-03-21 18:45:28,316 - WARNING - Rate limit exceeded for query 'hml'. Waiting 60s
+2025-03-21 18:45:28,316 - WARNING - Rate limit exceeded for query 'hmr'. Waiting 60s
+2025-03-21 18:45:28,317 - WARNING - Rate limit exceeded for query 'hmq'. Waiting 60s
+2025-03-21 18:45:28,318 - WARNING - Rate limit exceeded for query 'hmv'. Waiting 60s
+2025-03-21 18:45:28,318 - WARNING - Rate limit exceeded for query 'hmj'. Waiting 60s
+2025-03-21 18:45:28,319 - WARNING - Rate limit exceeded for query 'hmu'. Waiting 60s
+2025-03-21 18:45:28,319 - WARNING - Rate limit exceeded for query 'hms'. Waiting 60s
+2025-03-21 18:45:28,319 - WARNING - Rate limit exceeded for query 'hmx'. Waiting 60s
+2025-03-21 18:45:28,320 - WARNING - Rate limit exceeded for query 'hmt'. Waiting 60s
+2025-03-21 18:45:28,320 - WARNING - Rate limit exceeded for query 'hib'. Waiting 60s
+2025-03-21 18:45:28,321 - WARNING - Rate limit exceeded for query 'hia'. Waiting 60s
+2025-03-21 18:45:28,321 - WARNING - Rate limit exceeded for query 'hmz'. Waiting 60s
+2025-03-21 18:47:28,653 - INFO - Found 8400 unique names so far. Queue size: 13808
+2025-03-21 18:47:28,654 - INFO - Found 8400 unique names so far. Queue size: 13808
+2025-03-21 18:47:28,654 - INFO - Found 8400 unique names so far. Queue size: 13808
+2025-03-21 18:47:28,654 - INFO - Found 8400 unique names so far. Queue size: 13808
+2025-03-21 18:50:29,953 - INFO - Found 8500 unique names so far. Queue size: 13488
+2025-03-21 18:50:29,955 - INFO - Found 8500 unique names so far. Queue size: 13488
+2025-03-21 18:50:29,956 - INFO - Found 8500 unique names so far. Queue size: 13488
+2025-03-21 18:51:33,401 - WARNING - Rate limit exceeded for query 'knr'. Waiting 60s
+2025-03-21 18:51:33,403 - WARNING - Rate limit exceeded for query 'knk'. Waiting 60s
+2025-03-21 18:51:33,405 - WARNING - Rate limit exceeded for query 'ktc'. Waiting 60s
+2025-03-21 18:51:33,405 - WARNING - Rate limit exceeded for query 'knz'. Waiting 60s
+2025-03-21 18:51:33,406 - WARNING - Rate limit exceeded for query 'knx'. Waiting 60s
+2025-03-21 18:51:33,412 - WARNING - Rate limit exceeded for query 'knu'. Waiting 60s
+2025-03-21 18:51:33,419 - WARNING - Rate limit exceeded for query 'knw'. Waiting 60s
+2025-03-21 18:51:33,425 - WARNING - Rate limit exceeded for query 'knq'. Waiting 60s
+2025-03-21 18:51:33,426 - WARNING - Rate limit exceeded for query 'knp'. Waiting 60s
+2025-03-21 18:51:33,426 - WARNING - Rate limit exceeded for query 'knl'. Waiting 60s
+2025-03-21 18:51:33,430 - WARNING - Rate limit exceeded for query 'ktb'. Waiting 60s
+2025-03-21 18:51:33,431 - WARNING - Rate limit exceeded for query 'knv'. Waiting 60s
+2025-03-21 18:51:33,432 - WARNING - Rate limit exceeded for query 'knn'. Waiting 60s
+2025-03-21 18:51:33,433 - WARNING - Rate limit exceeded for query 'knt'. Waiting 60s
+2025-03-21 18:51:33,433 - WARNING - Rate limit exceeded for query 'ktd'. Waiting 60s
+2025-03-21 18:51:33,436 - WARNING - Rate limit exceeded for query 'kta'. Waiting 60s
+2025-03-21 18:51:33,436 - WARNING - Rate limit exceeded for query 'kns'. Waiting 60s
+2025-03-21 18:51:33,437 - WARNING - Rate limit exceeded for query 'kno'. Waiting 60s
+2025-03-21 18:51:33,437 - WARNING - Rate limit exceeded for query 'knm'. Waiting 60s
+2025-03-21 18:51:33,437 - WARNING - Rate limit exceeded for query 'kny'. Waiting 60s
+2025-03-21 18:54:33,744 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,744 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,745 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,746 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,751 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,753 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,753 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,753 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:54:33,753 - INFO - Found 8600 unique names so far. Queue size: 13108
+2025-03-21 18:57:34,535 - INFO - Found 8700 unique names so far. Queue size: 12788
+2025-03-21 18:57:34,535 - INFO - Found 8700 unique names so far. Queue size: 12788
+2025-03-21 18:58:36,388 - WARNING - Rate limit exceeded for query 'ais'. Waiting 60s
+2025-03-21 18:58:36,392 - WARNING - Rate limit exceeded for query 'ain'. Waiting 60s
+2025-03-21 18:58:36,398 - WARNING - Rate limit exceeded for query 'aob'. Waiting 60s
+2025-03-21 18:58:36,399 - WARNING - Rate limit exceeded for query 'aiz'. Waiting 60s
+2025-03-21 18:58:36,399 - WARNING - Rate limit exceeded for query 'aim'. Waiting 60s
+2025-03-21 18:58:36,401 - WARNING - Rate limit exceeded for query 'aii'. Waiting 60s
+2025-03-21 18:58:36,405 - WARNING - Rate limit exceeded for query 'aiu'. Waiting 60s
+2025-03-21 18:58:36,409 - WARNING - Rate limit exceeded for query 'aiw'. Waiting 60s
+2025-03-21 18:58:36,410 - WARNING - Rate limit exceeded for query 'aiv'. Waiting 60s
+2025-03-21 18:58:36,410 - WARNING - Rate limit exceeded for query 'ait'. Waiting 60s
+2025-03-21 18:58:36,411 - WARNING - Rate limit exceeded for query 'aiq'. Waiting 60s
+2025-03-21 18:58:36,416 - WARNING - Rate limit exceeded for query 'ail'. Waiting 60s
+2025-03-21 18:58:36,416 - WARNING - Rate limit exceeded for query 'aix'. Waiting 60s
+2025-03-21 18:58:36,416 - WARNING - Rate limit exceeded for query 'aik'. Waiting 60s
+2025-03-21 18:58:36,418 - WARNING - Rate limit exceeded for query 'aij'. Waiting 60s
+2025-03-21 18:58:36,419 - WARNING - Rate limit exceeded for query 'aio'. Waiting 60s
+2025-03-21 18:58:36,419 - WARNING - Rate limit exceeded for query 'aip'. Waiting 60s
+2025-03-21 18:58:36,419 - WARNING - Rate limit exceeded for query 'aiy'. Waiting 60s
+2025-03-21 18:58:37,490 - WARNING - Rate limit exceeded for query 'aoa'. Waiting 60s
+2025-03-21 18:58:37,494 - WARNING - Rate limit exceeded for query 'air'. Waiting 60s
+2025-03-21 19:01:38,088 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,103 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,104 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,104 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,123 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,123 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,125 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,125 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:01:38,125 - INFO - Found 8800 unique names so far. Queue size: 12368
+2025-03-21 19:03:38,822 - WARNING - Rate limit exceeded for query 'iie'. Waiting 60s
+2025-03-21 19:03:38,822 - WARNING - Rate limit exceeded for query 'iib'. Waiting 60s
+2025-03-21 19:03:38,823 - WARNING - Rate limit exceeded for query 'imr'. Waiting 60s
+2025-03-21 19:03:38,823 - WARNING - Rate limit exceeded for query 'imp'. Waiting 60s
+2025-03-21 19:03:38,825 - WARNING - Rate limit exceeded for query 'imz'. Waiting 60s
+2025-03-21 19:03:38,826 - WARNING - Rate limit exceeded for query 'imu'. Waiting 60s
+2025-03-21 19:03:38,827 - WARNING - Rate limit exceeded for query 'imw'. Waiting 60s
+2025-03-21 19:03:38,827 - WARNING - Rate limit exceeded for query 'imy'. Waiting 60s
+2025-03-21 19:03:38,827 - WARNING - Rate limit exceeded for query 'imx'. Waiting 60s
+2025-03-21 19:03:38,829 - WARNING - Rate limit exceeded for query 'ims'. Waiting 60s
+2025-03-21 19:03:38,832 - WARNING - Rate limit exceeded for query 'imo'. Waiting 60s
+2025-03-21 19:03:38,832 - WARNING - Rate limit exceeded for query 'iid'. Waiting 60s
+2025-03-21 19:03:38,832 - WARNING - Rate limit exceeded for query 'imq'. Waiting 60s
+2025-03-21 19:03:38,832 - WARNING - Rate limit exceeded for query 'iia'. Waiting 60s
+2025-03-21 19:03:38,833 - WARNING - Rate limit exceeded for query 'iig'. Waiting 60s
+2025-03-21 19:03:38,834 - WARNING - Rate limit exceeded for query 'iic'. Waiting 60s
+2025-03-21 19:03:38,835 - WARNING - Rate limit exceeded for query 'imt'. Waiting 60s
+2025-03-21 19:03:38,835 - WARNING - Rate limit exceeded for query 'iih'. Waiting 60s
+2025-03-21 19:03:38,836 - WARNING - Rate limit exceeded for query 'imv'. Waiting 60s
+2025-03-21 19:03:38,855 - WARNING - Rate limit exceeded for query 'iif'. Waiting 60s
+2025-03-21 19:04:39,081 - INFO - Found 8900 unique names so far. Queue size: 12114
+2025-03-21 19:07:41,034 - WARNING - Rate limit exceeded for query 'iyk'. Waiting 60s
+2025-03-21 19:07:41,040 - WARNING - Rate limit exceeded for query 'iyi'. Waiting 60s
+2025-03-21 19:07:41,041 - WARNING - Rate limit exceeded for query 'iyq'. Waiting 60s
+2025-03-21 19:07:41,042 - WARNING - Rate limit exceeded for query 'iyn'. Waiting 60s
+2025-03-21 19:07:41,047 - WARNING - Rate limit exceeded for query 'iyc'. Waiting 60s
+2025-03-21 19:07:41,048 - WARNING - Rate limit exceeded for query 'iym'. Waiting 60s
+2025-03-21 19:07:41,048 - WARNING - Rate limit exceeded for query 'iyf'. Waiting 60s
+2025-03-21 19:07:41,049 - WARNING - Rate limit exceeded for query 'iyh'. Waiting 60s
+2025-03-21 19:07:41,049 - WARNING - Rate limit exceeded for query 'sey'. Waiting 60s
+2025-03-21 19:07:41,049 - WARNING - Rate limit exceeded for query 'iyg'. Waiting 60s
+2025-03-21 19:07:41,055 - WARNING - Rate limit exceeded for query 'iyp'. Waiting 60s
+2025-03-21 19:07:41,055 - WARNING - Rate limit exceeded for query 'iya'. Waiting 60s
+2025-03-21 19:07:41,056 - WARNING - Rate limit exceeded for query 'iyj'. Waiting 60s
+2025-03-21 19:07:41,057 - WARNING - Rate limit exceeded for query 'iyd'. Waiting 60s
+2025-03-21 19:07:41,057 - WARNING - Rate limit exceeded for query 'iyo'. Waiting 60s
+2025-03-21 19:07:41,057 - WARNING - Rate limit exceeded for query 'iyb'. Waiting 60s
+2025-03-21 19:07:41,057 - WARNING - Rate limit exceeded for query 'iye'. Waiting 60s
+2025-03-21 19:07:41,057 - WARNING - Rate limit exceeded for query 'iyr'. Waiting 60s
+2025-03-21 19:07:41,058 - WARNING - Rate limit exceeded for query 'iyl'. Waiting 60s
+2025-03-21 19:07:41,060 - WARNING - Rate limit exceeded for query 'sez'. Waiting 60s
+2025-03-21 19:10:43,135 - WARNING - Rate limit exceeded for query 'ixm'. Waiting 60s
+2025-03-21 19:10:43,136 - WARNING - Rate limit exceeded for query 'ize'. Waiting 60s
+2025-03-21 19:10:43,136 - WARNING - Rate limit exceeded for query 'ixt'. Waiting 60s
+2025-03-21 19:10:43,136 - WARNING - Rate limit exceeded for query 'ixu'. Waiting 60s
+2025-03-21 19:10:43,141 - WARNING - Rate limit exceeded for query 'ixs'. Waiting 60s
+2025-03-21 19:10:43,146 - WARNING - Rate limit exceeded for query 'iza'. Waiting 60s
+2025-03-21 19:10:43,146 - WARNING - Rate limit exceeded for query 'izb'. Waiting 60s
+2025-03-21 19:10:43,147 - WARNING - Rate limit exceeded for query 'ixr'. Waiting 60s
+2025-03-21 19:10:43,150 - WARNING - Rate limit exceeded for query 'ixv'. Waiting 60s
+2025-03-21 19:10:43,152 - WARNING - Rate limit exceeded for query 'ixq'. Waiting 60s
+2025-03-21 19:10:43,156 - WARNING - Rate limit exceeded for query 'ixn'. Waiting 60s
+2025-03-21 19:10:43,157 - WARNING - Rate limit exceeded for query 'ixp'. Waiting 60s
+2025-03-21 19:10:43,157 - WARNING - Rate limit exceeded for query 'izf'. Waiting 60s
+2025-03-21 19:10:43,158 - WARNING - Rate limit exceeded for query 'ixy'. Waiting 60s
+2025-03-21 19:10:43,158 - WARNING - Rate limit exceeded for query 'ixo'. Waiting 60s
+2025-03-21 19:10:43,159 - WARNING - Rate limit exceeded for query 'ixw'. Waiting 60s
+2025-03-21 19:10:43,159 - WARNING - Rate limit exceeded for query 'izd'. Waiting 60s
+2025-03-21 19:10:43,159 - WARNING - Rate limit exceeded for query 'izc'. Waiting 60s
+2025-03-21 19:10:43,161 - WARNING - Rate limit exceeded for query 'ixz'. Waiting 60s
+2025-03-21 19:10:43,161 - WARNING - Rate limit exceeded for query 'ixx'. Waiting 60s
+2025-03-21 19:11:43,648 - INFO - Found 9100 unique names so far. Queue size: 11426
+2025-03-21 19:11:43,648 - INFO - Found 9100 unique names so far. Queue size: 11426
+2025-03-21 19:11:43,650 - INFO - Found 9100 unique names so far. Queue size: 11426
+2025-03-21 19:11:43,650 - INFO - Found 9100 unique names so far. Queue size: 11426
+2025-03-21 19:11:43,650 - INFO - Found 9100 unique names so far. Queue size: 11426
+2025-03-21 19:11:43,749 - INFO - Found 9100 unique names so far. Queue size: 11406
+2025-03-21 19:11:43,754 - INFO - Found 9100 unique names so far. Queue size: 11406
+2025-03-21 19:11:43,756 - INFO - Found 9100 unique names so far. Queue size: 11406
+2025-03-21 19:15:47,337 - WARNING - Rate limit exceeded for query 'jec'. Waiting 60s
+2025-03-21 19:15:47,342 - WARNING - Rate limit exceeded for query 'sqx'. Waiting 60s
+2025-03-21 19:15:47,344 - WARNING - Rate limit exceeded for query 'sqv'. Waiting 60s
+2025-03-21 19:15:47,344 - WARNING - Rate limit exceeded for query 'jei'. Waiting 60s
+2025-03-21 19:15:47,351 - WARNING - Rate limit exceeded for query 'jeh'. Waiting 60s
+2025-03-21 19:15:47,351 - WARNING - Rate limit exceeded for query 'jel'. Waiting 60s
+2025-03-21 19:15:47,353 - WARNING - Rate limit exceeded for query 'jeg'. Waiting 60s
+2025-03-21 19:15:47,355 - WARNING - Rate limit exceeded for query 'sqy'. Waiting 60s
+2025-03-21 19:15:47,355 - WARNING - Rate limit exceeded for query 'jed'. Waiting 60s
+2025-03-21 19:15:47,358 - WARNING - Rate limit exceeded for query 'jeb'. Waiting 60s
+2025-03-21 19:15:47,358 - WARNING - Rate limit exceeded for query 'squ'. Waiting 60s
+2025-03-21 19:15:47,360 - WARNING - Rate limit exceeded for query 'jek'. Waiting 60s
+2025-03-21 19:15:47,362 - WARNING - Rate limit exceeded for query 'jea'. Waiting 60s
+2025-03-21 19:15:47,362 - WARNING - Rate limit exceeded for query 'sqw'. Waiting 60s
+2025-03-21 19:15:47,362 - WARNING - Rate limit exceeded for query 'jej'. Waiting 60s
+2025-03-21 19:15:47,363 - WARNING - Rate limit exceeded for query 'sqz'. Waiting 60s
+2025-03-21 19:15:47,366 - WARNING - Rate limit exceeded for query 'sqt'. Waiting 60s
+2025-03-21 19:15:47,366 - WARNING - Rate limit exceeded for query 'sqs'. Waiting 60s
+2025-03-21 19:15:47,366 - WARNING - Rate limit exceeded for query 'jee'. Waiting 60s
+2025-03-21 19:15:47,368 - WARNING - Rate limit exceeded for query 'jef'. Waiting 60s
+2025-03-21 19:17:49,075 - WARNING - Rate limit exceeded for query 'jjn'. Waiting 60s
+2025-03-21 19:17:49,076 - WARNING - Rate limit exceeded for query 'jjq'. Waiting 60s
+2025-03-21 19:17:49,079 - WARNING - Rate limit exceeded for query 'jjs'. Waiting 60s
+2025-03-21 19:17:49,080 - WARNING - Rate limit exceeded for query 'jjm'. Waiting 60s
+2025-03-21 19:17:49,082 - WARNING - Rate limit exceeded for query 'jjp'. Waiting 60s
+2025-03-21 19:17:49,084 - WARNING - Rate limit exceeded for query 'jjl'. Waiting 60s
+2025-03-21 19:17:49,085 - WARNING - Rate limit exceeded for query 'jjk'. Waiting 60s
+2025-03-21 19:17:49,085 - WARNING - Rate limit exceeded for query 'jjv'. Waiting 60s
+2025-03-21 19:17:49,088 - WARNING - Rate limit exceeded for query 'jjr'. Waiting 60s
+2025-03-21 19:17:49,088 - WARNING - Rate limit exceeded for query 'jjx'. Waiting 60s
+2025-03-21 19:17:49,090 - WARNING - Rate limit exceeded for query 'jju'. Waiting 60s
+2025-03-21 19:17:49,091 - WARNING - Rate limit exceeded for query 'jjo'. Waiting 60s
+2025-03-21 19:17:49,092 - WARNING - Rate limit exceeded for query 'joa'. Waiting 60s
+2025-03-21 19:17:49,094 - WARNING - Rate limit exceeded for query 'jod'. Waiting 60s
+2025-03-21 19:17:49,095 - WARNING - Rate limit exceeded for query 'jjw'. Waiting 60s
+2025-03-21 19:17:49,096 - WARNING - Rate limit exceeded for query 'jjt'. Waiting 60s
+2025-03-21 19:17:49,100 - WARNING - Rate limit exceeded for query 'jjz'. Waiting 60s
+2025-03-21 19:17:49,104 - WARNING - Rate limit exceeded for query 'jjy'. Waiting 60s
+2025-03-21 19:17:49,105 - WARNING - Rate limit exceeded for query 'joc'. Waiting 60s
+2025-03-21 19:17:49,105 - WARNING - Rate limit exceeded for query 'job'. Waiting 60s
+2025-03-21 19:18:49,774 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,776 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,778 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,779 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,782 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,782 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,784 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,784 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,785 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,791 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,791 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,791 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,791 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,793 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,796 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,796 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:18:49,796 - INFO - Found 9300 unique names so far. Queue size: 10732
+2025-03-21 19:19:49,261 - INFO - Found 9300 unique names so far. Queue size: 10712
+2025-03-21 19:19:49,266 - INFO - Found 9300 unique names so far. Queue size: 10712
+2025-03-21 19:21:52,215 - WARNING - Rate limit exceeded for query 'jze'. Waiting 60s
+2025-03-21 19:21:52,220 - WARNING - Rate limit exceeded for query 'jzf'. Waiting 60s
+2025-03-21 19:21:52,224 - WARNING - Rate limit exceeded for query 'jzd'. Waiting 60s
+2025-03-21 19:21:52,225 - WARNING - Rate limit exceeded for query 'jzb'. Waiting 60s
+2025-03-21 19:21:52,229 - WARNING - Rate limit exceeded for query 'jzl'. Waiting 60s
+2025-03-21 19:21:52,233 - WARNING - Rate limit exceeded for query 'jzn'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jzi'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jzj'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jzh'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jwz'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jzm'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jzg'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jwv'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jwu'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jwy'. Waiting 60s
+2025-03-21 19:21:52,236 - WARNING - Rate limit exceeded for query 'jwx'. Waiting 60s
+2025-03-21 19:21:52,242 - WARNING - Rate limit exceeded for query 'jzk'. Waiting 60s
+2025-03-21 19:21:52,242 - WARNING - Rate limit exceeded for query 'jww'. Waiting 60s
+2025-03-21 19:21:52,243 - WARNING - Rate limit exceeded for query 'jzc'. Waiting 60s
+2025-03-21 19:21:52,243 - WARNING - Rate limit exceeded for query 'jza'. Waiting 60s
+2025-03-21 19:22:52,472 - INFO - Found 9400 unique names so far. Queue size: 10418
+2025-03-21 19:28:54,955 - INFO - Found 10000 unique names so far. Queue size: 10890
+2025-03-21 19:28:54,970 - INFO - Found 10000 unique names so far. Queue size: 10890
+2025-03-21 19:29:56,213 - WARNING - Rate limit exceeded for query 'tmp'. Waiting 60s
+2025-03-21 19:29:56,213 - WARNING - Rate limit exceeded for query 'tpb'. Waiting 60s
+2025-03-21 19:29:56,216 - WARNING - Rate limit exceeded for query 'tpe'. Waiting 60s
+2025-03-21 19:29:56,218 - WARNING - Rate limit exceeded for query 'tpg'. Waiting 60s
+2025-03-21 19:29:56,218 - WARNING - Rate limit exceeded for query 'tpd'. Waiting 60s
+2025-03-21 19:29:56,220 - WARNING - Rate limit exceeded for query 'tmo'. Waiting 60s
+2025-03-21 19:29:56,228 - WARNING - Rate limit exceeded for query 'tpc'. Waiting 60s
+2025-03-21 19:29:56,228 - WARNING - Rate limit exceeded for query 'tmt'. Waiting 60s
+2025-03-21 19:29:56,230 - WARNING - Rate limit exceeded for query 'tmr'. Waiting 60s
+2025-03-21 19:29:56,230 - WARNING - Rate limit exceeded for query 'tmw'. Waiting 60s
+2025-03-21 19:29:56,231 - WARNING - Rate limit exceeded for query 'tmz'. Waiting 60s
+2025-03-21 19:29:56,231 - WARNING - Rate limit exceeded for query 'tmy'. Waiting 60s
+2025-03-21 19:29:56,233 - WARNING - Rate limit exceeded for query 'tpa'. Waiting 60s
+2025-03-21 19:29:56,234 - WARNING - Rate limit exceeded for query 'tmv'. Waiting 60s
+2025-03-21 19:29:56,234 - WARNING - Rate limit exceeded for query 'tms'. Waiting 60s
+2025-03-21 19:29:56,234 - WARNING - Rate limit exceeded for query 'tph'. Waiting 60s
+2025-03-21 19:29:56,237 - WARNING - Rate limit exceeded for query 'tmx'. Waiting 60s
+2025-03-21 19:29:56,237 - WARNING - Rate limit exceeded for query 'tmu'. Waiting 60s
+2025-03-21 19:29:56,238 - WARNING - Rate limit exceeded for query 'tmq'. Waiting 60s
+2025-03-21 19:29:56,239 - WARNING - Rate limit exceeded for query 'tpf'. Waiting 60s
+2025-03-21 19:30:58,511 - INFO - Found 10300 unique names so far. Queue size: 11248
+2025-03-21 19:30:58,520 - WARNING - Rate limit exceeded for query 'thi'. Waiting 60s
+2025-03-21 19:31:59,234 - WARNING - Rate limit exceeded for query 'tlb'. Waiting 60s
+2025-03-21 19:32:59,916 - WARNING - Rate limit exceeded for query 'tsv'. Waiting 60s
+2025-03-21 19:34:01,898 - INFO - Found 10400 unique names so far. Queue size: 10948
+2025-03-21 19:34:01,899 - WARNING - Rate limit exceeded for query 'tvu'. Waiting 60s
+2025-03-21 19:34:01,901 - INFO - Found 10400 unique names so far. Queue size: 10948
+2025-03-21 19:35:02,962 - WARNING - Rate limit exceeded for query 'lct'. Waiting 60s
+2025-03-21 19:36:03,649 - WARNING - Rate limit exceeded for query 'lbo'. Waiting 60s
+2025-03-21 19:37:05,389 - WARNING - Rate limit exceeded for query 'twh'. Waiting 60s
+2025-03-21 19:38:05,964 - INFO - Found 10500 unique names so far. Queue size: 10594
+2025-03-21 19:38:05,964 - INFO - Found 10500 unique names so far. Queue size: 10594
+2025-03-21 19:38:05,973 - INFO - Found 10500 unique names so far. Queue size: 10594
+2025-03-21 19:38:06,120 - WARNING - Rate limit exceeded for query 'mch'. Waiting 60s
+2025-03-21 19:39:07,904 - WARNING - Rate limit exceeded for query 'lnu'. Waiting 60s
+2025-03-21 19:40:08,651 - WARNING - Rate limit exceeded for query 'mbq'. Waiting 60s
+2025-03-21 19:41:08,844 - INFO - Found 10700 unique names so far. Queue size: 10692
+2025-03-21 19:41:09,109 - INFO - Found 10800 unique names so far. Queue size: 10834
+2025-03-21 19:41:09,109 - INFO - Found 10800 unique names so far. Queue size: 10834
+2025-03-21 19:41:09,109 - INFO - Found 10800 unique names so far. Queue size: 10834
+2025-03-21 19:41:09,726 - WARNING - Rate limit exceeded for query 'lxq'. Waiting 60s
+2025-03-21 19:42:10,956 - WARNING - Rate limit exceeded for query 'lun'. Waiting 60s
+2025-03-21 19:43:12,878 - WARNING - Rate limit exceeded for query 'mkf'. Waiting 60s
+2025-03-21 19:44:13,458 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,460 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,461 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,468 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,469 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,473 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,474 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,479 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,480 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,480 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,483 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,483 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,484 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,484 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,484 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,485 - INFO - Found 10900 unique names so far. Queue size: 10514
+2025-03-21 19:44:13,573 - INFO - Found 10900 unique names so far. Queue size: 10494
+2025-03-21 19:44:13,578 - INFO - Found 10900 unique names so far. Queue size: 10494
+2025-03-21 19:44:13,580 - INFO - Found 10900 unique names so far. Queue size: 10494
+2025-03-21 19:44:13,608 - WARNING - Rate limit exceeded for query 'mmh'. Waiting 60s
+2025-03-21 19:45:14,350 - WARNING - Rate limit exceeded for query 'mxa'. Waiting 60s
+2025-03-21 19:46:15,061 - WARNING - Rate limit exceeded for query 'mjy'. Waiting 60s
+2025-03-21 19:47:15,754 - INFO - Found 11000 unique names so far. Queue size: 10220
+2025-03-21 19:47:15,757 - WARNING - Rate limit exceeded for query 'mnx'. Waiting 60s
+2025-03-21 19:48:17,442 - WARNING - Rate limit exceeded for query 'mzq'. Waiting 60s
+2025-03-21 19:49:18,310 - WARNING - Rate limit exceeded for query 'ndn'. Waiting 60s
+2025-03-21 19:50:20,377 - WARNING - Rate limit exceeded for query 'nbu'. Waiting 60s
+2025-03-21 19:51:20,580 - INFO - Found 11300 unique names so far. Queue size: 10394
+2025-03-21 19:51:20,581 - INFO - Found 11300 unique names so far. Queue size: 10394
+2025-03-21 19:51:20,582 - INFO - Found 11300 unique names so far. Queue size: 10394
+2025-03-21 19:51:21,064 - WARNING - Rate limit exceeded for query 'nfe'. Waiting 60s
+2025-03-21 19:52:21,258 - INFO - Found 11500 unique names so far. Queue size: 10658
+2025-03-21 19:52:21,735 - WARNING - Rate limit exceeded for query 'nob'. Waiting 60s
+2025-03-21 19:53:22,444 - WARNING - Rate limit exceeded for query 'nzx'. Waiting 60s
+2025-03-21 19:54:24,703 - WARNING - Rate limit exceeded for query 'rfs'. Waiting 60s
+2025-03-21 19:55:26,433 - INFO - Found 11900 unique names so far. Queue size: 10890
+2025-03-21 19:55:27,083 - WARNING - Rate limit exceeded for query 'nyq'. Waiting 60s
+2025-03-21 19:56:29,974 - WARNING - Extraction interrupted by user
